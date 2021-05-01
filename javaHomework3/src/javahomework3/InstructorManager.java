@@ -3,15 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package javahomework3;
 
 /**
  *
  * @author samil
  */
-public class Logger {
+public class InstructorManager extends UserManager {
     
-    public void log() {
-        System.out.println("Ortak konfigurasyon");
-    }
+      
 }

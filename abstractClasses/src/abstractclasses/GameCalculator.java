@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package abstractclasses;
 
 /**
  *
  * @author samil
  */
-public class Logger {
+public abstract class GameCalculator {
+    public abstract void hesapla();
     
-    public void log() {
-        System.out.println("Ortak konfigurasyon");
+    public final void gameOver(){ //final ifadesi ile override edilmez
+        System.out.println("oyun bitti");
     }
 }

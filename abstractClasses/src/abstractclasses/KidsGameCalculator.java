@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package abstractclasses;
 
 /**
  *
  * @author samil
  */
-public class Logger {
-    
-    public void log() {
-        System.out.println("Ortak konfigurasyon");
+public class KidsGameCalculator extends GameCalculator {
+    @Override
+    public void hesapla(){
+        System.out.println("puanınız : 75");
     }
 }

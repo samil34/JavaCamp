@@ -10,7 +10,7 @@ package inheritance;
  * @author samil
  */
 public class CustomerManager {
-    //Addi delete, update
+    //Add, delete, update
     
     public void add(Customer customer){
         System.out.println(customer.customerNumber + " kaydedildi");

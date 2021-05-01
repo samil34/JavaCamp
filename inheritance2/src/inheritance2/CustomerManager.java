@@ -10,6 +10,7 @@ package inheritance2;
  * @author samil
  */
 public class CustomerManager {
+    
     public void add(Logger logger) {
         
         //müşteri ekleme kodları
