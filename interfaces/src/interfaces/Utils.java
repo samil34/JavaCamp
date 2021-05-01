@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package interfaces;
 
 /**
  *
  * @author samil
  */
-public class Logger {
+public class Utils {
     
-    public void log() {
-        
+    public static void runLoggers(Logger[] loggers, String message){
+        for(Logger logger: loggers){
+            logger.log(message);
+        }
     }
 }

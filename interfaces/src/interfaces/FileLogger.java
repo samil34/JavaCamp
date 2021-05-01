@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package interfaces;
 
 /**
  *
  * @author samil
  */
-public class Logger {
-    
-    public void log() {
-        
+public class FileLogger implements Logger{
+
+    @Override
+    public void log(String message) {
+
+        System.out.println("Dosyaya loglandı " + message);
     }
+    
 }

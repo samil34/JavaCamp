@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance2;
+package interfaces;
 
 /**
  *
  * @author samil
  */
-public class Logger {
-    
-    public void log() {
-        
-    }
+public interface Logger  {
+
+    void log(String message);
 }
+
+

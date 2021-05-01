@@ -9,9 +9,6 @@ package inheritance2;
  *
  * @author samil
  */
-public class Logger {
+public class SmsLogger extends Logger {
     
-    public void log() {
-        
-    }
 }
